@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.badge-primary {
+  background-color: #007bff !important; /* Blue background */
+  color: white !important;            /* White text */
+}

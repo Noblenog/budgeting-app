@@ -5,9 +5,11 @@ import Remaining from './components/Remaining';
 import ExpenseTotal from './components/ExpenseTotal';
 import ExpenseList from './components/ExpenseList';
 import AddExpenseForm from './components/AddExpenseForm';
+import {AppProvider} from './context/AppContext';
 
 const App = () => {
   return (
+    <AppProvider>
     <div className="container">
       <h1 className="mt-3">Budgeting App</h1>
       <div className= 'row mt-3'>
@@ -32,6 +34,7 @@ const App = () => {
         </div>
         </div>
     </div>
+    </AppProvider>
   );
 };
 export default App;

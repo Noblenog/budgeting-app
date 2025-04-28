@@ -11,7 +11,7 @@ import {AppProvider} from './context/AppContext';
 const App = () => {
   return (
     <AppProvider>
-    <div className="container">
+    <div className="container d-flex justify-content-center flex-column">
       <h1 className="mt-3">Budgeting App</h1>
       <div className="row mt-3">
         <AddBudget />

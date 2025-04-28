@@ -1,5 +1,6 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
+import AddBudget from './components/AddBudget';
 import Budget from './components/Budget';
 import Remaining from './components/Remaining';
 import ExpenseTotal from './components/ExpenseTotal';
@@ -12,6 +13,9 @@ const App = () => {
     <AppProvider>
     <div className="container">
       <h1 className="mt-3">Budgeting App</h1>
+      <div className="row mt-3">
+        <AddBudget />
+      </div>
       <div className= 'row mt-3'>
         <div className="col-sm">
           <Budget />

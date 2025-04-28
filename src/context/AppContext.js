@@ -11,8 +11,7 @@ const AppReducer = (state, action) => {
             return {
                 ...state,
                 expenses: state.expenses.filter(
-                    (expense) => expense.id !== action.payload
-                ),
+                    (expense) => expense.id !== action.payload),
             };
         default:
             return state;
